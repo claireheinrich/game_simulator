@@ -3,8 +3,6 @@ Description: A two action simplified game simulator based on the 4.1.0 Axelrod s
 
 Basics: This game simulator will be used by run-tournaments.py to use all students' game strategies in a round-robin tournament that will ouput updated results every 10 minutes. 
 
-Installation: First make sure you have Python 3.5 or greater installed on your machine. Go into command line and type the command "pip3 install gamesimulator".
-
 Changing the Game: This simulator works for any game theory example that only allows players to choose between two actions. To change the game to a different scoring system, go into python3 via command line and type the following instructions:
       >>>import gamesimulator as gs
       >>>new_game = gs.game.Game(r=1, s=3, p=5, t=7)
