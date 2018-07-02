@@ -1,7 +1,6 @@
 import subprocess
 import sys
-modules = ["run_strategy_indexer.py",
-           "gamesimulator/action.py",
+modules = ["gamesimulator/action.py",
            "gamesimulator/game.py",
            "gamesimulator/plot.py",
            "gamesimulator/random_.py",
